@@ -2,7 +2,6 @@ var redTotal = 0;
 var yellowTotal = 0;
 var greenTotal = 0;
 var blueTotal = 0;
-var total = 0;
 
 $(document).ready(function() {
   event.preventDefault();
@@ -28,6 +27,6 @@ $(document).ready(function() {
       blueTotal++;
       $("#blue").text("Total blue: " + blueTotal);
     }
-    $(".container").append('<div class= "color-cube ' + color + '"></div>'); 
+    $(".container").append('<div class= "color-cube ' + color + '"></div>');
   }
 });
